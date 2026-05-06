@@ -27,6 +27,9 @@ array = array.reshape(3,2,2) # array is [[[ 1  2]
                                         #  [[ 9 10]
                                         #   [11 12]]] and shape is (3, 2, 2)
 
+
+array = array.reshape(1,-1) # array is [[ 1  2  3  4  5  6  7  8  9 10 11 12]] and shape is (1, 12) --> single row
+# array = array.reshape(-1,1) # single column
 print(f"array is {array} and shape is {array.shape}")
 
 # array = array.reshape(2, 6)
