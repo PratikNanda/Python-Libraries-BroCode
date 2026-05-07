@@ -11,4 +11,8 @@ array = np.array([1, 2, 3, 4])
 print(array) # output --> [1 2 3 4]
 print(array * 2) # output --> [2 4 6 8]
 
+array[3] = 5
+
+print(array)
+
 # print(type(array))
