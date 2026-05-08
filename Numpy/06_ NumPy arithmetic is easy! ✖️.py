@@ -38,18 +38,10 @@ import numpy as np
 
 # ---------- Comparision operators ------
 
-    scores = np.array([91, 55, 100, 73, 82, 64])
+scores = np.array([91, 55, 100, 73, 82, 64])
 
-    print(scores == 100) # [False False  True False False False]
-    print(scores >= 60) # [ True False  True  True  True  True]
-    print(scores < 60) # [False  True False False False False]
-    scores[scores < 60] = 0
-    print(scores) # [ 91   0 100  73  82  64]
-
-
-
-
-
-
-
-
+print(scores == 100) # [False False  True False False False]
+print(scores >= 60) # [ True False  True  True  True  True]
+print(scores < 60) # [False  True False False False False]
+scores[scores < 60] = 0
+print(scores) # [ 91   0 100  73  82  64]
